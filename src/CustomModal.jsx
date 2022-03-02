@@ -1,7 +1,7 @@
 import { Modal, useModalModel } from "@workday/canvas-kit-react/modal";
 import { PrimaryButton } from "@workday/canvas-kit-react/button";
 
-export const ModalWithoutWrapper = () => {
+export const CustomModal = () => {
   const model = useModalModel();
   return (
     <Modal model={model}>

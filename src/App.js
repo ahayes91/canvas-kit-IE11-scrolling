@@ -1,12 +1,11 @@
 import "./styles.css";
-import { ModalWithWrapper } from "./ModalWithWrapper";
-import { ModalWithoutWrapper } from "./ModalWithoutWrapper";
+import { CustomModal } from "./CustomModal";
 
-const App = ({ withWrapper = true }) => {
+const App = () => {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-      {withWrapper ? <ModalWithWrapper /> : <ModalWithoutWrapper />}
+      <CustomModal />
     </div>
   );
 };
